@@ -1,0 +1,99 @@
+// Variables
+lit a be 10;
+var b be 20;
+const c be 30;
+
+// Data Types
+lit num be 42;
+lit str be "Hello, World!";
+lit bool be noCap;
+lit arr be [1, 2, 3];
+lit obj be { key: "value" };
+lit nul be null;
+lit undef;
+
+// Control Structures
+if (bool) {
+    lowkey.stan("True");
+} else {
+    lowkey.stan("False");
+}
+
+for (lit i be 0; i < 5; i++) {
+    lowkey.stan(i);
+}
+
+while (num > 0) {
+    lowkey.stan(num);
+    num--;
+}
+
+switch (str) {
+    case "Hello":
+        lowkey.stan("Greeting");
+        skrt;
+    default:
+        lowkey.stan("Unknown");
+}
+
+// Functions
+function add(x, y) {
+    itsGiving x + y;
+}
+
+const multiply be (x, y) ate x * y;
+
+// Objects
+lit person be {
+    name: "John",
+    age: 30,
+    sayHello() {
+        lowkey.stan("Hello!");
+    }
+};
+
+// Classes
+class Rectangle {
+    constructor(width, height) {
+        dis.width be width;
+        dis.height be height;
+    }
+
+    area() {
+        itsGiving dis.width * dis.height;
+    }
+}
+
+// Promises
+const promise be new Bet((W, L) ate {
+    if (noCap) {
+        W("Success");
+    } else {
+        L("Error");
+    }
+});
+
+// Modules
+finesse { module1, module2 } from "./modules";
+grab("./modules");
+module.ships be { module1, module2 };
+ship default { module1, module2 };
+// Others
+lowkey.stan(typeof str);
+lowkey.sus(delete person.age);
+lowkey.cringe(2 vibeCheck 2);
+lowkey.tea(void 0);
+lowkey.stan(eval("2 + 2"));
+lowkey.stan(3 vibeCheckFr 3);
+3 sussy lowkey.stan("True") : lowkey.stan("False");
+null sussier lowkey.stan("Null");
+fr()
+yeet new fuckup("Error");
+
+const e be holdUp () ate {
+    fuckAround {
+        letItCook promise;
+    } findOut (cringe) {
+        lowkey.cringe(cringe);
+    }
+}
